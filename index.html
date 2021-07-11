@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html>
+<title>KicoBabyCenter.com</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<style>
+body {font-family: "Times New Roman", Georgia, Serif;}
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Playfair Display";
+  letter-spacing: 5px;
+}
+</style>
+<body>
+
+  <!-- Navbar (sit on top) -->
+<div class="w3-top">
+  <div class="w3-bar w3-white w3-padding w3-card" style="letter-spacing:4px;">
+    <a href="#home" class="w3-bar-item w3-button">KicoBabyCenter.com</a>
+   
+    
+    <!-- Right-sided navbar links. Hide them on small screens -->
+    <div class="w3-right w3-hide-small">
+      <a href="#home" class="w3-bar-item w3-button">Home</a>
+      <a href="#about" class="w3-bar-item w3-button">About</a>
+      <a href="#product" class="w3-bar-item w3-button">Product</a>
+      <a href="#contact" class="w3-bar-item w3-button">Contact</a>
+      <a href="#location" class="w3-bar-item w3-button">Location</a>
+    </div>
+  </div>
+</div>
+<br><br>
+
+
+<!--Automatic Slideshow -->
+<header class="w3-display-container w3-content w3-wide" style="max-width:1600px;min-width:500px;text-align: center;" id="home">
+<div class="w3-content w3-section" style="max-width:1600px">
+  <img class="mySlides" src="image/kico.jpg" style="width:1350px; height: 600px">
+  <img class="mySlides" src="image/slide.png" style="width:1350px; height: 600px">
+  <img class="mySlides" src="image/slide 2.png" style="width:1350px; height: 600px">
+</div>
+
+<script>
+var myIndex = 0;
+carousel();
+
+function carousel() {
+  var i;
+  var x = document.getElementsByClassName("mySlides");
+  for (i = 0; i < x.length; i++) {
+    x[i].style.display = "none";  
+  }
+  myIndex++;
+  if (myIndex > x.length) {myIndex = 1}    
+  x[myIndex-1].style.display = "block";  
+  setTimeout(carousel, 2000); // Change image every 3 seconds
+}
+</script>
+
+
+
+<!-- Page content -->
+<div class="w3-content" style="max-width:1100px">
+
+
+
+  <!-- About Section -->
+  <div class="w3-row w3-padding-64" id="about">
+    <div class="w3-col m6 w3-padding-large w3-hide-small"> <br><br><br>
+     <img src="image/center.jpg"  alt="Table Setting" class="w3-card-4" width="480" height="450">
+    </div>
+
+    <div class="w3-col m6 w3-padding-large">
+      <h1 class="w3-center">Company Background</h1><br>
+      <h5 class="w3-center">Established in 2015 by EN MOHD RAFIQ BIN HASSAN</h5>
+      <p class="w3-large" style="text-align: justify;">Kico Baby Centre (KBC) also known as Kidz Collection Corner. Before he have the store, in 2015, he running the business just from home. This company started running their business by selling kekabu mattres for the first time. This company used online, offline and shop as a medium of their business. For online business, it has about 80 dropship from different state such as Kuala Lumpur, Perak, Negeri Sembilan and Johore.</p>
+      <p class="w3-large w3-text-grey w3-hide-medium" style="text-align: justify;"> Our company started running this business by selling kekabu mattres and begining 2016 it start import baby product from china with 36 suppliers. The high achievement of this company is we earn a sales more than RM2.6 million for a year. Most of the sales is from the online business. It is about 80%. For now, this company has 2 outlet of shop which are the main shop is at Tendong, Pasir Mas and the second outlet is at Kubang Kerian. The second outlet started operated on 1 Jan 2020.</p>
+    </div>
+  </div>
+
+  <div class="w3-row w3-padding-64" id="about">
+  <div class="w3-col m6 w3-padding-large">
+      <h1 class="w3-center">Owner Background</h1><br>
+      <h5 class="w3-center">Kico Baby Centre is founded by Encik mohd Rafiq bin Hassan</h5>
+      <p class="w3-large" style="text-align: justify;">Encik Rafiq is born and raised in Padang Embong Tendung, 17030 Pasir Mas Kelantan. He was married and have four children. This type of company is sole proprietorship. Encik Rafiq is founder of this company and was helped by his sister in law named Siti Suriani Hassan. He starts with online business in 2012 and open the shop in 2015. He starts his business in 2015 with the capital that amount RM 100 000. The sources of the capital are by make a loan from Perbadanan Usahawan Nasional Berhad (PUNB).</p>
+      <p class="w3-large w3-text-grey w3-hide-medium" style="text-align: justify;"> Encik Rafiq was grad his study in 2005 in Civil Engineering. He does not have any base of business but he attracts in business because he believes that business can make a lot of profit. His first business is start in 2011 with construction business but he fails to manage the business. That’s why in 2012, he starts with online business about baby product. The business is start grow up when many requests from customers so, en. Rafiq decided to have his own shop to make his business much strongest and successful. Before that, he starts to rent one shop, when he earns more profit from his business, en. Rafiq start rent another shop to make his shop more largerst than before and until now he still rent that shop. For now the biggest achievement that Encik Rafiq get during this industry is he get entrepreneurial figure in PUNB.</p>
+    </div>
+
+    <div class="w3-col m6 w3-padding- w3-hide-small"> <br><br><br>
+     <img src="image/owner.png"  alt="owner image" width="480" height="450" class="w3-card-4" style="margin-left: 50px">
+    </div>
+  </div>
+
+  <hr>
+
+
+
+    <!-- Product Section -->
+  <div class="w3-row w3-padding-64" id="product">
+    <div class="w3-col l6 w3-padding-large">
+      <h1 class="w3-center">Our Product</h1><br>
+      <h4>Sleeping Bag Kekabu</h4>
+      <p class="w3-text-grey">Home made 100% sewn by our expert tailors and have 9 years of experience in this field (RM 90.00)</p><br>
+
+      <h4>Car Seat</h4>
+      <p class="w3-text-grey"> Featuring a safety harness, this car seat helps in holding your baby in place no matter how rough the ride is (RM 299.00)</p><br>
+    
+      <h4>Baby Carrier</h4>
+      <p class="w3-text-grey">This product is made with non-toxic environmental material and built with labour saving structure so that it can reduce the stress of the user when using it (RM 50.00)</p><br>
+    
+      <h4>Babynest</h4>
+      <p class="w3-text-grey">The KICO sleeping bag has been tested for 'FLUFFY', & 'SOFTNESS' which is suitable for newborns (RM 19.00)</p><br>
+    
+      <h4>Baby Bouncer</h4>
+      <p class="w3-text-grey">Has vibrate & music function (uses battery) (RM 299.00)</p><br>    
+
+      <h4> & Others </h4>
+    </div>
+    
+    <div class="w3-col l6 w3-padding-large">
+      <img src="image/sleep.png" class="w3-round" alt="Menu" style="width:100%">
+    </div>
+  </div>
+
+  <hr>
+
+
+
+  <!-- The Contact Section -->
+  <div class="w3-container w3-content w3-padding-64" style="max-width:800px" id="contact">
+    <h2 class="w3-wide w3-center">CONTACT</h2>
+    <p class="w3-opacity w3-center"><i>Any inquiries or find job vacancy? Drop here!</i></p>
+    <div class="w3-row w3-padding-32">
+      <div class="w3-col m6 w3-large w3-margin-bottom">
+        <i class="fa fa-map-marker" style="width:30px"></i> Tendong, Pasir Mas, Kelantan<br>
+        <i class="fa fa-phone" style="width:30px"></i> Phone: 011-56802472<br>
+        <i class="fa fa-envelope" style="width:30px"> </i> Email: kidzcollectioncorner@gmail.com<br>
+      </div>
+      <div class="w3-col m6">
+        <form action="mailto:kidzcollectioncorner@gmail.com" target="_blank">
+          <div class="w3-row-padding" style="margin:0 -16px 8px -16px">
+            <div class="w3-half">
+              <input class="w3-input w3-border" type="text" placeholder="Name" required name="Name">
+            </div>
+            <div class="w3-half">
+              <input class="w3-input w3-border" type="text" placeholder="Email" required name="Email">
+            </div>
+          </div>
+          <input class="w3-input w3-border" type="text" placeholder="Message" required name="Message">
+          <button class="w3-button w3-black w3-section w3-right" type="submit">SEND</button>
+        </form>
+      </div>
+    </div>
+  </div>
+
+
+
+  <!-- End page content -->
+</div>
+
+<hr>
+
+
+<!-- The Location Section -->
+<div class="w3-container w3-content w3-padding-64" style="max-width:800px" id="location">
+<h2 class="w3-wide w3-center">LOCATION</h2>
+<p class="w3-opacity w3-center"><i>Allert !! The baby kico center in Tendong, Pasir Mas is closed forever due to the pandemic and it only deals online. So the map below is available for those who want walk in. It is one of the branches that located in Kubang Kerian.</i></p>
+</div>
+
+
+<!-- Image of location/map -->
+<img class="w3-image w3-greyscale-min" >
+<p><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d137489.73003337992!2d102.20895775850245!3d6.081808718951031!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x4d8e80953dd325d2!2sKico%20Baby%20Center%20Kubang%20Kerian%3A%20Baby%20Shop%20In%20Kelantan!5e0!3m2!1sms!2smy!4v1625504202773!5m2!1sms!2smy" width="1500" height="600" style="border:0;" allowfullscreen="" loading="lazy"></iframe></p><br><br>
+
+
+
+<!--Created by -->
+<div class="w3-container w3-content w3-padding-64" style="max-width:800px">
+<div class="w3-card-4">
+  <div class="w3-display-container w3-text-black">
+    <div class="w3-xlarge w3-display-bottomleft w3-padding">This website created by:</div>
+  </div>
+  <div class="w3-row">
+    <div class="w3-first w3-center">
+      <h3>MADHIAH <br> </h3>
+      <h4> (2020968629)</h4>
+      <img src="image/madhiah.jpeg" alt="madhiah" width="180" height="200"> 
+    </div>
+    <div class="w3-third w3-center">
+      <h3>SALWANI <br> </h3>
+        <h4>(2020961017) </h4>
+      <img src="image/wani.jpeg" alt="salwani" width="180" height="200">
+    </div>
+    <div class="w3-third w3-center w3-margin-bottom">
+      <h3>AIN </h3>
+      <h4> (2020975309)</h4>
+      <img src="image/ain.png" alt="ain" width="180" height="200">
+    </div>
+    <div class="w3-third w3-center w3-margin-bottom">
+      <h3>NAJWA</h3>
+      <h4> (2020974533)</h4>
+      <img src="image/najwa.jpeg" alt="najwa" width="180" height="200">
+    </div>
+  </div>
+</div><br>
+
+
+<!-- Footer -->
+<footer class="w3-container w3-padding-64 w3-center w3-opacity w3-light-grey w3-xlarge">
+  <a href="https://www.facebook.com/KICOBABYCENTER"><img src="image/face.png" width="40" class="w3-hover-opacity"></a>
+  <a href="https://www.instagram.com/kicobabycenter/"><img src="image/ins.png" width="40" class="w3-hover-opacity"></a>
+  <a href="https://www.kico.my/# w3-hover-opacity"><img src="image/website.png" width="40" class="w3-hover-opacity"></a>
+  <a href="http://www.my/+01156802472"><img src="image/wasapp.png" width="50" class="w3-hover-opacity"></a>
+  <a href="https://shopee.com.my/kico_baby_center"><img src="image/shopee.png" width="40" class="w3-hover-opacity"></a>
+  <p class="w3-medium">Disclaimer : THIS IS NOT THE OFFICIAL SITE ! PLEASE PAY VISIT TO THEIR OFFICIAL SITE AS BEEN SHARED IN THE WEB.</p>
+  <p class="w3-medium">This website only use for purpose of assignment project.</p>
+  <p class="w3-medium">Powered by <a href="https://www.w3schools.com/w3css/default.asp" target="_blank">w3.css</a></p>
+</footer>
+
+</body>
+</html>
